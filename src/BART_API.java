@@ -16,8 +16,6 @@ public class BART_API {
 	// API Key
 	private String key = "&key=MW9S-E7SL-26DU-VV8V";
 	
-	
-	
 	//API call for the current departure estimates
 	public Document estimatedDeparture() {
 		return apiCall(host, key, "cmd=etd");
